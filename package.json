@@ -1,0 +1,31 @@
+{
+  "name": "bluetooth",
+  "version": "0.0.0",
+  "description": "tessel-bluetooth testing",
+  "main": "main.js",
+  "scripts": {
+    "run": "tessel run main.js",
+    "debug": "tessel debug main.js",
+    "test": "tessel run test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrnice/bluetessel-testing.git"
+  },
+  "keywords": [
+    "bluetooth",
+    "low",
+    "energy",
+    "ble",
+    "tessel"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mrnice/bluetessel-testing/issues"
+  },
+  "homepage": "https://github.com/mrnice/bluetessel-testing",
+  "dependencies": {
+    "tesselate": "0.0.1"
+  }
+}
