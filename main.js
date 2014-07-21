@@ -7,6 +7,5 @@ require('tesselate')({
 }, run);
 
 function run(tessel, m) {
-  var blue = m.blue;
-  console.log(blue);
+  console.log('Hooray we are logging something');
 }

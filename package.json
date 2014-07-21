@@ -4,7 +4,7 @@
   "description": "tessel-bluetooth testing",
   "main": "main.js",
   "scripts": {
-    "run": "tessel run main.js",
+    "go": "tessel run main.js",
     "debug": "tessel debug main.js",
     "test": "tessel run test.js"
   },
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/mrnice/bluetessel-testing",
   "dependencies": {
+    "ble-ble113a": "^0.1.9",
     "tesselate": "0.0.1"
   }
 }
